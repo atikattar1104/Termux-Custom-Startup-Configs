@@ -14,4 +14,6 @@ Step 2 :- Move Files That Starts With `termux-custom-` To `usr/etc/`, Which Is O
 Step 3 :- Move Files That Starts With `neofetch-` To `.termux/.config/neofetch/`, Which Is Inside Of `home` Directory.
 
 Step 4 :- Remove `termux-custom-` And `neofetch-` From File Names.
+
+Note :- If Files Already Exists With Same Name, Make Sure Not To Delete Them. Instead, Change Their Name (E.g. :- If `motd` Exists, Change It To `old_motd` Or Something Like That.). In Case, Customization Gives Errors, These Old Files Might Be Helpful.
 > `ENJOY!👍`
