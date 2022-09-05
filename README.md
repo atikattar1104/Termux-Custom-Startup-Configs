@@ -18,14 +18,34 @@ Step 3 :- Rename `bash.bashrc` To `old-bash.bashrc` And `motd` To `old-motd`. Us
 
 Step 4 :- Move New `bash.bashrc` And `motd` To `usr/etc/`, Which Is Outside Of `home` Directory.
 
+[OR]
+
+Step 4 :- Create New Files Named `bash.bashrc` And `motd` In `usr/etc/` Folder, Which Is Outside Of `home` Directory, And Copy All Content Of Downloaded `bash.bashrc` And `motd` Files To The Newly Created `bash.bashrc` And `motd` File.
+
 Step 5 :- Run `neofetch` and `cpufetch` Commands At Once, If Never Used Before.
 
 Step 6 :- Rename `config.conf` To `old-config.conf`. Useful In Case Customization Gives Errors.
 
-Step 7 :- Move New `config.conf` To `.termux/.config/neofetch/`, Which Is Inside Of `home` Directory.
+Step 7 :- Move New `config.conf` To `.config/neofetch/`, Which Is Inside Of `home` Directory.
+
+[OR]
+
+Step 7 :- Create A New File Named `config.conf` File In `.config/neofetch/` Folder, Which Is Inside Of `home` Directory, And Copy All Content Of Downloaded `config.conf` To The Newly Created `config.conf` File.
 
 Note :- If Files Already Exists With Same Name, Make Sure Not To Delete Them. Instead, Change Their Name (E.g. :- If `motd` Exists, Change It To `old_motd` Or Something Like That.). In Case, Customization Gives Errors, These Old Files Might Be Helpful.
 
-Step 8 :- Make Sure To Read All Comments In Files, In Order To Fully Customize As You Want.
+Step 8 :- Make Sure To Read All Comments In All Files, In Order To Fully Customize As You Want.
 
 > `ENJOY!👍`
+
+# Note :- 
+
+1) Make Sure To Read Comments Of All Files Before Use[IMP].
+
+2) Keep Old Files As Backup[VIMP!].
+
+3) Make Sure Termux And NeoFetch, CPUFetch Packages Are Updated And Upgraded[IMP].
+
+4) Read Help Info Of NeoFetch And CPUFetch Using --help Parameter[IMP].
+
+> `Good Luck!👍`
