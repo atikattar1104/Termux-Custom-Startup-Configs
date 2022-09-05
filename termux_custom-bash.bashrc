@@ -1,5 +1,5 @@
-# Don't Edit The Files In The Github Repository. Instead, Create Your Github Repository And Add Config Files To It And Share. I Would Love To See Them Too!
-# Modified Version Of Original 'bash.bashrc' File Found In Termux.
+# Don't Edit The Files In The Github Repository. Instead, Create Your Github Repository And Add Your Modified Config Files To It And Share. I Would Love To See Them Too!
+# Modified Version Of Original 'bash.bashrc' File Found In Termux. Modified By Atik S. Attar github.com/atikattar1104/Termux-Custom-Startup-Configs
 # Command history tweaks:
 # - Append history instead of overwriting
 #   when shell exits.
