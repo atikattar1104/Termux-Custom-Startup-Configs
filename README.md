@@ -17,7 +17,7 @@ Step 4 :- Move New `bash.bashrc` And `motd` To `usr/etc/`, Which Is Outside Of `
 
 Step 5 :- Run `neofetch` and `cpufetch` Commands.
 
-Step 6 :- Rename `config.conf` To `old-config.conf. Useful In Case Customization Gives Errors.
+Step 6 :- Rename `config.conf` To `old-config.conf`. Useful In Case Customization Gives Errors.
 
 Step 5 :- Move New `config.conf` To `.termux/.config/neofetch/`, Which Is Inside Of `home` Directory.
 
