@@ -31,6 +31,7 @@ PROMPT_DIRTRIM=0
 # Method To Display Original Username And Hostname :- 
 
 # Add A Hash Before This PS1 Line Which Have And Starts With '\u' And '\h' To Disable This Method. Remove The Hash To Enable This Method.
+# Changing Some Stuff In This ↓ Line Does Creates Some Unintended Behavior. Only Edit If You Know What Are You Doing And What Outcome You Want. Edit At Your Own Risk!
 PS1='\u@\h \[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '
 
 # Handles nonexistent commands.
