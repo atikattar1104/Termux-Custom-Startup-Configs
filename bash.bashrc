@@ -16,7 +16,7 @@ export HISTCONTROL=ignoreboth
 
 # Default command line prompt.
 
-# Setting This ↓ Variable To 0 Results In Showing Full Directory Address When You Change Them Using cd Command.
+# Setting This ↓ Variable To '0' Results In Showing Full Directory Address When You Change Them Using cd Command. Default Value Is '2'.
 PROMPT_DIRTRIM=0
 
 # Method To Display Custom Username And Hostname :- 
@@ -43,5 +43,5 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 fi
 
 # You Can Add Other Commands Which You Want To Run On System Start Under This Comment.
-neofetch --ascii_distro kali
+neofetch --ascii_distro android
 cpufetch
