@@ -19,7 +19,7 @@ Step 5 :- Run `neofetch` and `cpufetch` Commands At Once, If Never Used Before.
 
 Step 6 :- Rename `config.conf` To `old-config.conf`. Useful In Case Customization Gives Errors.
 
-Step 5 :- Move New `config.conf` To `.termux/.config/neofetch/`, Which Is Inside Of `home` Directory.
+Step 7 :- Move New `config.conf` To `.termux/.config/neofetch/`, Which Is Inside Of `home` Directory.
 
 Note :- If Files Already Exists With Same Name, Make Sure Not To Delete Them. Instead, Change Their Name (E.g. :- If `motd` Exists, Change It To `old_motd` Or Something Like That.). In Case, Customization Gives Errors, These Old Files Might Be Helpful.
 > `ENJOY!👍`
