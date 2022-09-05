@@ -4,7 +4,7 @@ Here Is The Custom Configs For Termux's Custom Startup Screen.
 
 # Requirements :- 
 
-> 1. An Up-To-Date Termux.
+> 1. An Up-To-Date `Termux`.
 > 2. `NeoFetch` And `CPUFetch` Packages Installed.
 > 3. Knowledge Of Linux's Basic And Directory Commands And Their Syntax.
 
@@ -49,3 +49,15 @@ Step 8 :- Make Sure To Read All Comments In All Files, In Order To Fully Customi
 4) Read Help Info Of NeoFetch And CPUFetch Using --help Parameter[IMP].
 
 > `Good Luck!👍`
+
+# Special Thanks To :- 
+
+1) Termux And It's Creators And Contributors For Creating Such A Great Linux System For Android.
+
+2) NeoFetch And It's Creators And Contributors For Creating Such A Great Linux Package And Helping In Customization.
+
+3) CPUFetch And It's Creators And Contributors For Creating Such A Great Linux Package And Helping Being "Cherry On The Cake!".
+
+4) Bash And It's Creators And Contributors For Creating Such A Great And Unique Linux Terminal Shell.
+
+5) And Everyone Who Helped In Customization.
