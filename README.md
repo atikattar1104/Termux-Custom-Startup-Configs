@@ -1,4 +1,4 @@
-# Termux-Custom-Configs-For-Startup
+# Termux Custom Configs For Custom Startup
 Here Is The Custom Configs For Termux's Custom Startup Screen.
 
 # Requirements :- 
