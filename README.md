@@ -15,7 +15,7 @@ Step 3 :- Rename `bash.bashrc` To `old-bash.bashrc` And `motd` To `old-motd`. Us
 
 Step 4 :- Move New `bash.bashrc` And `motd` To `usr/etc/`, Which Is Outside Of `home` Directory.
 
-Step 5 :- Run `neofetch` and `cpufetch` Commands.
+Step 5 :- Run `neofetch` and `cpufetch` Commands At Once, If Never Used Before.
 
 Step 6 :- Rename `config.conf` To `old-config.conf`. Useful In Case Customization Gives Errors.
 
