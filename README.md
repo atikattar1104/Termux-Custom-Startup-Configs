@@ -14,7 +14,7 @@ Step 1 :- Download All Files Except `README.md` From `Code` Section Of This Page
 
 Step 2 :- Run Termux Once, If Never Used Before.
 
-Step 3 :- Go To `usr/etc/` Folder Using `cd .. ; cd usr/etc/` Command.
+Step 3 :- Go To `usr/etc/` Folder, Which Is Outside Of `home` Directory, Using `cd .. ; cd usr/etc/` Command.
 
 Step 4 :- Rename `bash.bashrc` File To `old-bash.bashrc` And `motd` File To `old-motd`. Useful In Case Customization Gives Errors.
 
@@ -26,7 +26,7 @@ Step 5 :- Create New Files Named `bash.bashrc` And `motd` In `usr/etc/` Folder, 
 
 Step 6 :- Run `neofetch` and `cpufetch` Commands At Once, If Never Used Before.
 
-Step 7 :- Go To `.config/neofetch/` Folder Using `cd .config/neofetch/` Command.
+Step 7 :- Go To `.config/neofetch/` Folder, Which Is Inside Of `home` Directory, Using `cd .config/neofetch/` Command.
 
 Step 8 :- Rename `config.conf` To `old-config.conf`. Useful In Case Customization Gives Errors.
 
