@@ -23,7 +23,7 @@ PROMPT_DIRTRIM=0
 
 # You Can Change These ↓ 2 Variable's Values As You Want To Change Username And Hostname. These Are Just For Display, And Doesn't Actually Change Device's Username And Hostname. And These Values Are Only Intended For Fun And Entertainment Purpose Only. Please Be Acknowledged.
 # Add A Hash Before UNAME, HNAME Variables And The PS1 Line Which Have And Starts With UNAME And HNAME Variables To Disable This Method. Remove The Hash To Enable This Method.
-# UNAME="[u0_a753]"
+# UNAME="[u0_a123]"
 # HNAME="[Termux-Android-LocalHost]"
 # Changing Some Stuff In This ↓ Line Does Creates Some Unintended Behavior. Only Edit If You Know What Are You Doing And What Outcome You Want. Edit At Your Own Risk!
 # PS1='$UNAME@$HNAME \[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '
@@ -46,3 +46,5 @@ fi
 # You Can Add Other Commands Which You Want To Run On System Start Under This Comment.
 neofetch --ascii_distro android
 cpufetch
+alias bashrc="nano /data/data/com.termux/files/usr/etc/bash.bashrc"
+alias shutdown="cd ; history -c ; rm -r .bash_history ; clear ; logout"
