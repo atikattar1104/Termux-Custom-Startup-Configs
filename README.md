@@ -52,6 +52,8 @@ Step 10 :- Make Sure To Read All Comments In All Files, In Order To Fully Custom
 
 4) Read Help Info Of NeoFetch And CPUFetch Using `--help` Parameter[IMP].
 
+5) Notes For `motd` :- a) You Can Add Your Name Or Any Text You Want. Like Linux's Startup Text Which Is Shown When Booting The System. b) Note That This File `motd` Will Run First And Then 'bash.bashrc' After That.
+
 > `Good Luck!👍`
 
 # Special Thanks To :- 
