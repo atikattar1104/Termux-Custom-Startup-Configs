@@ -47,4 +47,7 @@ fi
 neofetch --ascii_distro android
 cpufetch
 alias bashrc="nano /data/data/com.termux/files/usr/etc/bash.bashrc"
+alias neofetch-conf="nano .config/neofetch/config.conf"
+alias termux-props="nano .termux/termux.properties"
+alias termux-colors="nano .termux/color.properties"
 alias shutdown="cd ; history -c ; rm -r .bash_history ; clear ; logout"
