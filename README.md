@@ -50,7 +50,7 @@ Step 10 :- Make Sure To Read All Comments In All Files, In Order To Fully Custom
 
 3) Make Sure Termux And NeoFetch, CPUFetch Packages Are Updated And Upgraded[IMP].
 
-4) Read Help Info Of NeoFetch And CPUFetch Using --help Parameter[IMP].
+4) Read Help Info Of NeoFetch And CPUFetch Using `--help` Parameter[IMP].
 
 > `Good Luck!👍`
 
@@ -66,4 +66,4 @@ Step 10 :- Make Sure To Read All Comments In All Files, In Order To Fully Custom
 
 5) And Everyone Who Helped In Customization.
 
-> `Thanks`
+> `Thanks!`
