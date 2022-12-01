@@ -44,10 +44,15 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 fi
 
 # You Can Add Other Commands Which You Want To Run On System Start Under This Comment.
-neofetch --ascii_distro android
-cpufetch
 alias bashrc="nano /data/data/com.termux/files/usr/etc/bash.bashrc"
+alias help-all="compgen -abcdefgjksuv"
+alias help-some="compgen -abck"
+alias help-cmd="compgen -c"
+alias help-alias="compgen -a"
+alias help-builtin="compgen -b"
 alias neofetch-conf="nano .config/neofetch/config.conf"
 alias termux-props="nano .termux/termux.properties"
 alias termux-colors="nano .termux/color.properties"
 alias shutdown="cd ; history -c ; rm -r .bash_history ; clear ; logout"
+neofetch --ascii_distro android
+cpufetch
