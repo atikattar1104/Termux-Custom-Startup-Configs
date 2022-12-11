@@ -58,9 +58,9 @@ alias zls="ls -aiRZ --author --full-time" #Professional ls Using Built-In ls.
 alias zls-full="ls -aiLRZ --author --full-time" #Very Big Output!
 alias zlsd="lsd -laiRZ" #Just Like ls But COLORFULL!!! Requires LSD Installed.
 alias zlsd-full="lsd -laiLRZ" #Just Like ls But COLORFULL!!! Very Big Output! Required LSD Installed.
-alias neofetch-conf="nano .config/neofetch/config.conf" #Opens Neofetch Config File. Requires Neofetch Installed.
-alias termux-props="nano .termux/termux.properties" #Opens Termux Properties File.
-alias termux-colors="nano .termux/color.properties" #Opens Termux Theme Properties File. Requires Termux:Styling App Installed.
+alias neofetch-conf="nano /data/data/com.termux/files/home/.config/neofetch/config.conf" #Opens Neofetch Config File. Requires Neofetch Installed.
+alias termux-props="nano /data/data/com.termux/files/home/.termux/termux.properties" #Opens Termux Properties File.
+alias termux-colors="nano /data/data/com.termux/files/home/.termux/color.properties" #Opens Termux Theme Properties File. Requires Termux:Styling App Installed.
 alias shutdown="cd ; history -c ; rm -rf .bash_history ; clear ; logout" #Powerful Way To Shutdown Termux Session With No Traces.
 neofetch --ascii_distro android #Requires Neofetch Installed.
 cpufetch #Requires CPUFetch Installed.
