@@ -43,16 +43,24 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
         }
 fi
 
-# You Can Add Other Commands Which You Want To Run On System Start Under This Comment.
-alias bashrc="nano /data/data/com.termux/files/usr/etc/bash.bashrc"
-alias help-all="compgen -abcdefgjksuv"
-alias help-some="compgen -abck"
-alias help-cmd="compgen -c"
-alias help-alias="compgen -a"
-alias help-builtin="compgen -b"
-alias neofetch-conf="nano .config/neofetch/config.conf"
-alias termux-props="nano .termux/termux.properties"
-alias termux-colors="nano .termux/color.properties"
-alias shutdown="cd ; history -c ; rm -r .bash_history ; clear ; logout"
-neofetch --ascii_distro android
-cpufetch
+# You Can Add Other Commands Which You Want To Run On System Start And Add And>
+alias bashrc="nano /data/data/com.termux/files/usr/etc/bash.bashrc" #Opens bas>
+alias uu="apt update ; apt upgrade" #Updates And Upgrades Packages.
+alias uuc="apt update ; apt upgrade ; apt autoremove ; apt autopurge" #Updates>
+alias uu-full="apt update ; apt upgrade ; apt full-upgrade ; apt dist-upgrade">
+alias uuc-full="apt update ; apt upgrade ; apt full-upgrade ; apt dist-upgrade>
+alias help-all="compgen -abcdefgjksuv" #Lists Full Help.
+alias help-some="compgen -abck" #Lists Some Help.
+alias help-cmd="compgen -c" #Lists All Possible Commands As Output.
+alias help-alias="compgen -a" #Lists All Possible Aliases As Output.
+alias help-builtin="compgen -b" #Lists All Possible Built-In Keywords As Outpu>
+alias zls="ls -aiRZ --author --full-time" #Professional ls Using Built-In ls.
+alias zls-full="ls -aiLRZ --author --full-time" #Very Big Output!
+alias zlsd="lsd -laiRZ" #Just Like ls But COLORFULL!!! Requires LSD Installed.
+alias zlsd-full="lsd -laiLRZ" #Just Like ls But COLORFULL!!! Very Big Output! >
+alias neofetch-conf="nano .config/neofetch/config.conf" #Opens Neofetch Config>
+alias termux-props="nano .termux/termux.properties" #Opens Termux Properties F>
+alias termux-colors="nano .termux/color.properties" #Opens Termux Theme Proper>
+alias shutdown="cd ; history -c ; rm -r .bash_history ; clear ; logout" #Powerful>
+neofetch --ascii_distro android #Requires Neofetch Installed.
+cpufetch #Requires CPUFetch Installed.
