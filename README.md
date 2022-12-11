@@ -4,8 +4,8 @@ Here Is The Custom Configs For Termux's Custom Startup Screen.
 
 # Requirements :- 
 
-> 1. An Up-To-Date `Termux`.
-> 2. `NeoFetch`, `CPUFetch`,`lsd` Packages Installed.
+> 1. Up-To-Date `Termux`, `Termux: Boot`, `Termux: Widget`, `Termux: Styling`, And Optionally Other Termux Apps..
+> 2. Latest `NeoFetch`, `CPUFetch`, `lsd` Packages Installed.
 > 3. Knowledge Of Linux's Basic And Directory Commands And Their Syntax.
 
 # Setup :- 
