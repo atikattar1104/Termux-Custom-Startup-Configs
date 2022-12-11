@@ -43,24 +43,24 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
         }
 fi
 
-# You Can Add Other Commands Which You Want To Run On System Start And Add And>
-alias bashrc="nano /data/data/com.termux/files/usr/etc/bash.bashrc" #Opens bas>
+# You Can Add Other Commands Which You Want To Run On System Start And Add And Change Aliases Under This Comment.
+alias bashrc="nano /data/data/com.termux/files/usr/etc/bash.bashrc" #Opens bash.bashrc File Of Termux In Nano.
 alias uu="apt update ; apt upgrade" #Updates And Upgrades Packages.
-alias uuc="apt update ; apt upgrade ; apt autoremove ; apt autopurge" #Updates>
-alias uu-full="apt update ; apt upgrade ; apt full-upgrade ; apt dist-upgrade">
-alias uuc-full="apt update ; apt upgrade ; apt full-upgrade ; apt dist-upgrade>
+alias uuc="apt update ; apt upgrade ; apt autoremove ; apt autopurge" #Updates And Upgrades Packages And Removes Unwanted Files.
+alias uu-full="apt update ; apt upgrade ; apt full-upgrade ; apt dist-upgrade" #Updates And Upgrades Everything.
+alias uuc-full="apt update ; apt upgrade ; apt full-upgrade ; apt dist-upgrade ; apt autoremove ; apt autopurge" #Updates And Upgrades Everything And Removes Unwanted Files.
 alias help-all="compgen -abcdefgjksuv" #Lists Full Help.
 alias help-some="compgen -abck" #Lists Some Help.
 alias help-cmd="compgen -c" #Lists All Possible Commands As Output.
 alias help-alias="compgen -a" #Lists All Possible Aliases As Output.
-alias help-builtin="compgen -b" #Lists All Possible Built-In Keywords As Outpu>
+alias help-builtin="compgen -b" #Lists All Possible Built-In Keywords As Output.
 alias zls="ls -aiRZ --author --full-time" #Professional ls Using Built-In ls.
 alias zls-full="ls -aiLRZ --author --full-time" #Very Big Output!
 alias zlsd="lsd -laiRZ" #Just Like ls But COLORFULL!!! Requires LSD Installed.
-alias zlsd-full="lsd -laiLRZ" #Just Like ls But COLORFULL!!! Very Big Output! >
-alias neofetch-conf="nano .config/neofetch/config.conf" #Opens Neofetch Config>
-alias termux-props="nano .termux/termux.properties" #Opens Termux Properties F>
-alias termux-colors="nano .termux/color.properties" #Opens Termux Theme Proper>
-alias shutdown="cd ; history -c ; rm -rf .bash_history ; clear ; logout" #Powerful>
+alias zlsd-full="lsd -laiLRZ" #Just Like ls But COLORFULL!!! Very Big Output! Required LSD Installed.
+alias neofetch-conf="nano .config/neofetch/config.conf" #Opens Neofetch Config File. Requires Neofetch Installed.
+alias termux-props="nano .termux/termux.properties" #Opens Termux Properties File.
+alias termux-colors="nano .termux/color.properties" #Opens Termux Theme Properties File. Requires Termux:Styling App Installed.
+alias shutdown="cd ; history -c ; rm -rf .bash_history ; clear ; logout" #Powerful Way To Shutdown Termux Session With No Traces.
 neofetch --ascii_distro android #Requires Neofetch Installed.
 cpufetch #Requires CPUFetch Installed.
