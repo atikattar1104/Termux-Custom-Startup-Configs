@@ -61,6 +61,6 @@ alias zlsd-full="lsd -laiLRZ" #Just Like ls But COLORFULL!!! Very Big Output! >
 alias neofetch-conf="nano .config/neofetch/config.conf" #Opens Neofetch Config>
 alias termux-props="nano .termux/termux.properties" #Opens Termux Properties F>
 alias termux-colors="nano .termux/color.properties" #Opens Termux Theme Proper>
-alias shutdown="cd ; history -c ; rm -r .bash_history ; clear ; logout" #Powerful>
+alias shutdown="cd ; history -c ; rm -rf .bash_history ; clear ; logout" #Powerful>
 neofetch --ascii_distro android #Requires Neofetch Installed.
 cpufetch #Requires CPUFetch Installed.
