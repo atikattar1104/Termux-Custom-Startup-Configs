@@ -1,3 +1,8 @@
+
+# NOTE!
+
+These Are Outdated Configs. In Order To Get Latest Configs, Go To `https://gitlab.com/atikattar1104/termux-custom-startup-configs`
+
 # Termux Custom Configs For Custom Startup
 
 Here Is The Custom Configs For Termux's Custom Startup Screen.
